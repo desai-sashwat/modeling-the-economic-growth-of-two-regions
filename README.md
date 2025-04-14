@@ -73,8 +73,6 @@ The study employs mathematical modeling and numerical simulations:
 - Policy interventions may be necessary to balance economic efficiency and regional equity
 
 ## Repository Structure
-- **LICENSE** - MIT License
-- **README.md** - Project documentation
 - **python-files/** - Python code for model implementation and analysis
   - **equilibrium-analysis/** - Analysis of equilibrium conditions
     - **Equilibrium Analysis.py** - Analysis of equilibrium states under different parameter conditions
@@ -92,6 +90,8 @@ The study employs mathematical modeling and numerical simulations:
 - **report/** - Project report directory
   - **Modeling_the_Economic_Growth_of_Two_Regions_draftv3.pdf** - Research paper/report
   - **placeholder.md** - Placeholder file
+- **LICENSE** - MIT License
+- **README.md** - Project documentation
 - **requirements.txt** - Python package dependencies
 
 ## Usage
