@@ -73,22 +73,26 @@ The study employs mathematical modeling and numerical simulations:
 - Policy interventions may be necessary to balance economic efficiency and regional equity
 
 ## Repository Structure
+- **LICENSE** - MIT License
+- **README.md** - Project documentation
 - **python-files/** - Python code for model implementation and analysis
-  - **main.py** - Core implementation of the two-region economic model
-  - **placeholder.md** - Placeholder file
   - **equilibrium-analysis/** - Analysis of equilibrium conditions
     - **Equilibrium Analysis.py** - Analysis of equilibrium states under different parameter conditions
     - **Equilibrium and Stability Analysis.py** - Stability analysis of equilibrium points
     - **Labor and Capital Equilibrium.py** - Analysis of labor-capital equilibrium relationships
     - **placeholder.md** - Placeholder file
+  - **main.py** - Core implementation of the two-region economic model
   - **parameter-sensitivity-analysis/** - Analysis of parameter sensitivity
     - **Capital vs c.py** - Relationship between capital and capital-induced labor movement
-    - **Labor vs c.py** - Relationship between labor and capital-induced labor movement
-    - **Labor and Capital Changes for Different Parameters.py** - Parameter sensitivity analysis
     - **Labor and Capital Changes for DIfferent Parameters 2.py** - Additional parameter analysis
+    - **Labor and Capital Changes for Different Parameters.py** - Parameter sensitivity analysis
+    - **Labor vs c.py** - Relationship between labor and capital-induced labor movement
     - **placeholder.md** - Placeholder file
-- **LICENSE** - MIT License
-- **README.md** - Project documentation
+  - **placeholder.md** - Placeholder file
+- **report/** - Project report directory
+  - **Modeling_the_Economic_Growth_of_Two_Regions_draftv3.pdf** - Research paper/report
+  - **placeholder.md** - Placeholder file
+- **requirements.txt** - Python package dependencies
 
 ## Usage
 The main implementation is in `main.py`, which defines the `TwoRegionEconomicModel` class:
